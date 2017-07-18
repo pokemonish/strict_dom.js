@@ -58,4 +58,4 @@ window.strictDomManifest = {
 * *tagsType (String):* "blacklist" (remove tags mentioned in tags) or "whitelist" (remove all tags except mentioned in tags)
 * *tags (Array of strings):* names of tags
 * *attributesType (String):* "blacklist" (remove tags mentioned in attributes) or "whitelist" (remove all tags except mentioned in attributes)
-* *attributes (Object of Arrays of Strings):* name of attributes
+* *attributes (Object of Arrays of Strings):* name of attributes (star means any tag)
