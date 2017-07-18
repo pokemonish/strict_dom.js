@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="strict_dom.js">
+    {
+        "tagsType": "blacklist",
+        "tags": [
+            "script"
+        ],
+        "attributesType": "blacklist",
+        "attributes": {
+            "*": ["onerror"]
+        }
+    }
+    </script>
+    <title></title>
+</head>
+<body>
+    <img id=kek src=x onerror=alert(123)>
+    <script>alert(456)</script>
+    
+    <pre>
+    It is the example of quite simple XSS filter based on strict_dom
+    <center><img src="https://pp.userapi.com/c841432/v841432519/acf3/mSVT8RV0kX4.jpg" height="500px"></center>
+    It removes script tags and onerror attributes (other events should work)
+    
+    </pre>
+</body>
+</html>
+
